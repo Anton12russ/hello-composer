@@ -1,0 +1,15 @@
+{
+    "name": "anton12russ/hello-composer",
+    "description": "A simple hello world composer package",
+    "authors": [
+        {
+            "name": "Anton",
+            "email": "web-spiker@mail.ru"
+        }
+    ],
+   "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"anton12russ\\HelloWorld\\": "src/"}
+    },
+    "require": {}
+}
